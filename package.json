@@ -1,0 +1,27 @@
+{
+    "name": "mini-booking",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host 127.0.0.1",
+        "build": "vue-tsc --noEmit && vite build"
+    },
+    "dependencies": {
+        "@fontsource-variable/manrope": "^5.2.8",
+        "@primeuix/themes": "^1.2.0",
+        "lucide-vue-next": "^0.468.0",
+        "primevue": "^4.5.5",
+        "vue": "^3.5.0"
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.1",
+        "@vitejs/plugin-vue": "^6.0.0",
+        "laravel-vite-plugin": "^2.0.0",
+        "typescript": "~5.9.3",
+        "vite": "^7.0.7",
+        "vue-tsc": "^3.1.0"
+    },
+    "engines": {
+        "node": ">=22.12.0"
+    }
+}
